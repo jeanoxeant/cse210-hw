@@ -4,8 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the Exercise2 Project.");
-        Console.Write("What is your grade?");
+        Console.WriteLine("What is your grade?");
 
         string userGrade = Console.ReadLine();
         float grade = int.Parse(userGrade);
