@@ -6,12 +6,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Write different numbers of your choice and type 0 when finished.");
-        
+        Console.WriteLine("Write different numbers of your choice and type 0 when finished.");  
         string number;
         List<int> numbers = new List<int>();
         
-
         do
         {
             Console.Write("Type number:");
@@ -52,13 +50,9 @@ class Program
         {
             if (num > maximum)
             {
-                // if this number is greater than the max, we have found the new max!
                 maximum = num;
             }
         }
-
         Console.WriteLine($"The largest number is: {maximum}");
-
-
     }
 }
