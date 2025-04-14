@@ -4,13 +4,16 @@ using System;
 public class ListingActivity : Activity
 {
      private List<string> _prompts = new List<string> {
-        "Who are people that you appreciate?",
-        "What are personal strengths of yours?",
-        "Who are people that you have helped this week?",
-        "When have you felt the Holy Ghost this month?",
-        "Who are some of your personal heroes?",
-        "What are some attributes that you admire in others?",
-        "When was the last time you felt a deep sense of gratitude?",
+        "What goals this week helped you feel accomplished?",
+        "Who has been a positive influence to help you accomplish your goals?",
+        "What are some personal strengths you would like to work on?",
+        "What activities would bring you joy this week?",
+        "What are some habits you would like to change?",
+        "What are you grateful for this week?",
+        "How can you show your love to others?",
+        "Where do you see yourself in 2 weeks?",
+        "What music brings you peace?",
+        "What have you used this week to track your progress toward goals?",
     };
 
     public ListingActivity()

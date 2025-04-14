@@ -4,28 +4,28 @@ using System;
 public class ReflectingActivity : Activity
 {
     private List<string> _prompts = new List<string> {        
-        "Think of a scenario where you stood up for someone else.",
-        "Think of a situation when you faced a truly difficult task.",
-        "Think of a moment when you extended help to someone in need.",
-        "Think of an experience where you demonstrated genuine selflessness.",
-        "Think of a time when you took a risk to support a worthy cause.",
-        "Think of an occasion when you overcame a major obstacle through perseverance.", 
-        "Think of an incident where you went out of your way to make someone's day better.",
-        "Think of a memory when you prioritized the needs of others above your own.",
-        "Think of a moment when you confronted and addressed an injustice or unfairness.",
-        "Think of an experience where you demonstrated exceptional empathy towards someone in distress.",
-        "Think of a memory when you generously shared your knowledge or expertise to benefit others.",
+        "Think of a time when your ethics and morals of honesty were challenged.",
+        "Think of a time when you had to sacrifice something important.",
+        "Think of a time when you did not get a reward you believe you deserved.",
+        "Think of a time when you had trouble with feelings of anger.",
+        "Think of a time you were a leader of a class group that failed an assignment and how you managed the scenario.",
+        "Think of a time you experienced low self-esteem and overcame these feelings.", 
+        "Think of a time you experienced stress and managed the stress successfully.",
+        "Think of a time you accomplished a goal and the decisions you made to help achieve the goal.",
+        "Think of a time you had to choose a career or job, and how you made this decision. ",
+        "Think of a time you were seeking counsel/support from another, and how you knew this was good counsel for you.",
     };
     private List<string> _questions = new List<string> {
-        "What differentiates this occasion from previous ones where you were less successful?",
-        "What aspect of this experience resonated with you the most?",
-        "What broader applications or lessons can you derive from this experience?",
-        "What self-discoveries did you make through this encounter?",
-        "How can you integrate the insights gained from this experience into future endeavors?",
-        "What significance does this experience hold for you?",
-        "Have you previously encountered a similar situation?",
-        "What were the initial steps you took to initiate this process?",
-        "How did you feel upon completing the task?",
+        "What prompted you to make your final choice in this situation?",
+        "What beliefs affected your decision, for example, personal, social norms, family, spiritual, and why?",
+        "What would you do differently now, if anything?",
+        "What life experiences have helped you in this scenario?",
+        "What mentors have helped in shaping the choice made in this scenario?",
+        "If granted one wish in this scenario, what would it be?",
+        "If you could have seen the feature in this scenario, what would you have told yourself?",
+        "If you could see the feature, would you make a different decision now?",
+        "If you could be the HERO in this story, what character would you be?",
+        "If you could choose any superpower in this scenario, what superpower would you have chosen?",
     };
     public ReflectingActivity()
     {
