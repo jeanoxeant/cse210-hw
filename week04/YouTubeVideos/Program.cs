@@ -5,7 +5,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the YouTubeVideos Project.");
+        Console.WriteLine("Welcome to my YouTubeVideos Program!!!");
         Video video1 = new Video("Playing golf", "Shannon", 22);
         Video video2 = new Video("Drawing Tutorial", "Natacha", 30);
         Video video3 = new Video("Teaching", "John", 140);

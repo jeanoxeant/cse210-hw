@@ -31,7 +31,8 @@ public class Video
         Console.WriteLine($"Title: {Title}");
         Console.WriteLine($"Author: {Author}");
         Console.WriteLine($"Length: {Length} seconds");
-        Console.WriteLine($"Number of Comments: {GetNumberOfComments}");
+        //Console.WriteLine($"Number of Comments: {GetNumberOfComments}");
+        Console.WriteLine($"This video has {comments.Count} comments:");
         //int count = 1;
         foreach (var comment in comments) 
         {

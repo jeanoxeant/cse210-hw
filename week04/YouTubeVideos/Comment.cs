@@ -17,7 +17,7 @@ public class Comment
     
     public override string ToString() 
     {
-        return $"{CommenterName} says: {CommentText}.";
+        return $"{CommenterName} says: /{CommentText}./";
 
         
     }
