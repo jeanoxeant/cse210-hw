@@ -1,5 +1,7 @@
 using System;
 
+using System.Collections.Generic;
+
 
 public class Comment
 {
@@ -15,7 +17,8 @@ public class Comment
     
     public override string ToString() 
     {
-        return $"{commenterName} says: \"{commentText}\"";
+        return $"{CommenterName} says: {CommentText}.";
+
         
     }
 

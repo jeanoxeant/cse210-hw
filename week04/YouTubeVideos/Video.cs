@@ -1,11 +1,11 @@
 using System;
-
+using System.Collections.Generic;
 
 public class Video
 {
-    public string Title {get; set;};
-    public string Author {get; set;};
-    public double Length {get; set;};
+    private string Title{get; set;}
+    private string Author{get; set;}
+    public double Length;
     public List<Comment> comments = new List<Comment>();
 
     public Video(string title, string author, double length)
@@ -33,13 +33,13 @@ public class Video
         Console.WriteLine($"Length: {Length} seconds");
         Console.WriteLine($"Number of Comments: {GetNumberOfComments}");
         //int count = 1;
-    foreach (var comment in comments) 
-    {
-        Console.Write($"-- {comment.ToString()}. ");
-        //comment.DisplayComment();
-    }
+        foreach (var comment in comments) 
+        {
+            Console.Write($"-- {comment.ToString()}. ");
+            //comment.DisplayComment();
+        }
 
-    Console.WriteLine(" ");
+        Console.WriteLine(" ");
 
     }
 
