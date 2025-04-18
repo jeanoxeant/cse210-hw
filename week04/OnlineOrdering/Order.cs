@@ -14,7 +14,7 @@ public class Order
     public string PackingLabel()
     {
         List<Products> _name;
-        List<Products> _productId
+        //List<Products> _productId;
     }
 
     public string ShipingLabel(double shippingCost)

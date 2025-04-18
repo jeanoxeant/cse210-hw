@@ -3,9 +3,10 @@ using System;
 
 public class Customer
 {
-    private string _name;
+    private string _customerName;
 
-    public class Address{
+    public class CustomerAddress{
+        
 
     }
 
